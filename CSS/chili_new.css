@@ -1,0 +1,44 @@
+.table-bordered, .table-bordered thead tr td, .table-bordered thead tr th, .table-bordered thead th td, .table-bordered, .table-bordered tbody tr td, .table-bordered tbody tr th, .table-bordered tbody th td {
+    border-color:#bbb;
+}
+
+p.ex1 {
+	font: bold 14px Georgia, serif;
+}
+p.ex2 {
+	font: 11px Georgia, serif;
+}
+li {
+	font: bold;
+}
+body {
+	padding:20px;
+	padding-top:100px;
+}
+div.nav1 {
+	height:30px;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:6px;
+}
+div.nav2 {
+	height:16px;
+	font-size:12px;
+	font-weight:bold;
+	padding-top:2px;
+}
+div.navb {	
+        height:30px;
+}
+canvas {
+	width:100%;
+	height:auto;
+}
+body {
+	background: url(../images/cloudback.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+

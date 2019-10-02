@@ -1,0 +1,327 @@
+p.ex1 {
+    font: bold 14px Georgia, serif;
+}
+li {
+    font: bold;
+}
+body {
+    padding:100px;
+}
+div.nav1 {
+    height:30px;
+    font-size:16px;
+    font-weight:bold;
+    padding-top:6px;
+}
+div.nav2 {
+    height:16px;
+    font-size:12px;
+    font-weight:bold;
+    padding-top:2px;
+}
+div.navb {
+    height:30px;
+}
+
+/* CSS related to text coloring and handling */
+.center{
+text-align: center;
+}
+
+.left{
+text-align: left;
+}
+
+.right{
+text-align: right;
+}
+
+.photocaption {
+border: 0px;
+margin: 0px;
+padding: 0px !important;
+line-height: 1.2em;
+}
+
+.photodate{
+font-size: 65%;
+line-height: 90%;
+}
+
+.ht{
+color: #CC0000;
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 95%;
+text-align: right;
+}
+.ht a{
+color: #CC0000;
+text-decoration: none;
+margin-left: 8px;
+margin-right: 8px;
+}
+.ht a:hover{
+background-color: #CC0000;
+color: #FF6699;
+}
+
+.wc{
+color: blue;
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 95%;
+text-align: right;
+}
+.wc a{
+color: blue;
+text-decoration: none;
+margin-left: 8px;
+margin-right: 8px;
+}
+.wc a:hover{
+background-color: blue;
+color: #CCFFFF;
+}
+
+.hi {
+color: #CC0000;
+text-align: right;
+}
+.lo {
+color: blue;
+text-align: right;
+}
+
+.hum {
+color: #347C17;
+text-align: right;
+}
+
+.na {
+font-style:italic;
+text-align: center;
+}
+
+.pres {
+color: #000000;
+text-align: right;
+}
+
+.rain {
+color: DarkCyan;
+text-align: right;
+}
+
+.temp {
+color: black;
+text-align: right;
+}
+
+.wind {
+color: #0000A0;
+text-align: right;
+}
+
+/* CSS related to Instrument table Metadata page */
+.drinfo{
+font-size: 80%;
+line-height: 95%;
+}
+
+.instrument{
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 90%;
+}
+
+.instrument table{
+border: 1px solid black;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+.instrument td, th{
+border: 1px solid gray;
+margin: 0px !important;
+padding: 0px !important;
+}
+
+/* CSS related to Real time Display page */
+#htidx{
+color: #CC0000;
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 95%;
+text-decoration: none;
+text-align: center;
+}
+#htidx a{
+color: #CC0000;
+text-decoration: none;
+margin-left: 8px;
+margin-right: 8px;
+}
+#htidx a:hover{
+background-color: #CC0000;
+color: #FF6699;
+}
+
+
+#wdchl{
+color: blue;
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 95%;
+text-decoration: none;
+text-align: center;
+}
+#wdchl a{
+color: blue;
+text-decoration: none;
+margin-left: 8px;
+margin-right: 8px;
+}
+#wdchl a:hover{
+background-color: blue;
+color: #CCFFFF;
+}
+
+
+.realtime{
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 95%;
+}
+.realtime table{
+border: 1px solid black;
+border-collapse:collapse;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+width: 100%;
+}
+
+.realtime td, th{
+border: 1px solid gray;
+margin: 0;
+padding: 2px;
+}
+
+.rowdk{
+background-color: #DDDDDD;
+}
+
+.rowlt{
+background-color: #EEEEEE;
+}
+/* CSS related to Station minute data page */
+.sponsor{
+background: #6BEE59;
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 95%;
+}
+
+.stationdata{
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 90%;
+}
+
+.stationdata input{
+margin-left: 6px;
+margin-right: 6px;
+padding-left: 1px;
+padding-right: 1px;
+}
+
+.stationdata select{
+margin-left: 8px;
+margin-right: 8px;
+}
+
+.stationdata table{
+border-collapse: collapse;
+margin: 5px auto 5px auto;
+padding: 10px;
+width: 100%;
+}
+
+.stationdata a{
+color: green;
+text-decoration: none;
+margin-left: 8px;
+margin-right: 8px;
+}
+
+.stationdata a:visited {
+color: #217B32;
+}
+
+.stationdata a:hover {
+background-color: #217B32;
+color: #6BEE59;
+}
+
+/* CSS related to Archived Data Download page */
+#donate{
+background-color: #66FF99;
+padding: 5px;
+border: 1px solid #27EB00;
+}
+#donate a{
+color: #FF002B;
+}
+
+/* CSS related to Station images Metadata page */
+.stationimage{
+font-family: Verdana, sans-serif, Arial;
+font-weight: 600;
+font-size: 90%;
+}
+
+.stationimage table{
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 100%;
+}
+
+.stationimage img{
+padding: 0;
+border: 1px solid #000000;
+margin: 0;
+}
+
+table.compass{
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 20%;
+}
+
+img.arrow-lt{
+border: none;
+float: left;
+width: 15px;
+height: 15px;
+}
+
+img.arrow-rt{
+border: none;
+float: right;
+width: 15px;
+height: 15px;
+}
+
+
+#mainimage{
+margin: 35px 0 0 0;
+}
+
+.timeEntry_control{
+margin-left: -5px;
+margin-right: 8px;
+}
